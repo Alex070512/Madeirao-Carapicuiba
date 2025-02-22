@@ -1,0 +1,63 @@
+body{
+    font-family: "Arial Black";
+    font-size: 12px;
+    text-align: center;
+    align-items: center;
+    text-shadow: 15px 15px 30px black;
+    background-image: url('../images/back.jpg');
+                background-size: cover;
+                background-position: center;
+                background-attachment: fixed;
+                background-repeat: repeat;
+                color: white;
+}
+button {
+            background: linear-gradient(45deg, white, white);
+            color: black;
+            font-size: 18px;
+            font-weight: bold;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 10px rgba(255, 65, 108, 0.3);
+            outline: none;
+            position: relative;
+            overflow: hidden;
+        }
+        /* Efeito hover */
+        button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 15px rgba(255, 65, 108, 0.5);
+        }
+        /* Animação de clique */
+        button:active {
+            transform: scale(0.95);
+            box-shadow: 0 2px 5px rgba(255, 65, 108, 0.2);
+        }
+footer {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+}
+body {
+    padding-top: 80px; /* Para não cobrir o conteúdo */
+}
